@@ -8,7 +8,7 @@ import InfoSection from "@/components/InfoSection";
 import Footer from "@/components/Footer";
 import LoadingCard from "@/components/LoadingCard";
 import ErrorCard from "@/components/ErrorCard";
-import MapComponent from "@/components/MapComponent"; // 追加
+import MapComponent from "@/components/MapComponent";
 
 export default function Home() {
   const [position, setPosition] = useState<ISSPosition | null>(null);
@@ -43,7 +43,7 @@ export default function Home() {
         ) : position ? (
           <>
             <CoordinatesSection position={position} />
-            <MapComponent position={position} /> {/* 追加 */}
+            <MapComponent position={position} />
             <InfoSection />
           </>
         ) : (

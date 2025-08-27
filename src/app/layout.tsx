@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "ISS位置追跡システム",
-  description: "国際宇宙ステーションの現在位置をリアルタイムで追跡",
+  description: "国際宇宙ステーションの現在位置をリアルタイムで表示",
 };
 
 export default function RootLayout({

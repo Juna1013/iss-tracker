@@ -11,12 +11,12 @@ export default function CoordinatesSection({ position }: Props) {
       <h2 className="mb-4 text-xl font-bold text-gray-900">現在の座標</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <CoordinateCard
-          label="緯度 (Latitude)"
+          label="緯度"
           value={`${position.latitude.toFixed(6)}°`}
           icon="🌐"
         />
         <CoordinateCard
-          label="経度 (Longitude)"
+          label="経度"
           value={`${position.longitude.toFixed(6)}°`}
           icon="🗺️"
         />

@@ -7,10 +7,10 @@ export default function Header() {
         <ISSIcon className="h-10 w-10 text-white" />
       </div>
       <h1 className="mb-2 text-4xl font-bold text-gray-900">
-        ISS位置追跡システム
+        ISS Tracker
       </h1>
       <p className="text-lg text-gray-600">
-        国際宇宙ステーションの現在位置をリアルタイムで監視
+        国際宇宙ステーションの現在位置をリアルタイムで可視化
       </p>
     </header>
   );

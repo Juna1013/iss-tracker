@@ -20,7 +20,7 @@ export default function StatusCard({ lastUpdated }: Props) {
             <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
           </div>
           <span className="text-sm font-medium text-gray-700">
-            自動更新中 (10秒間隔)
+            10秒ごとに自動更新中
           </span>
         </div>
         <div className="text-sm text-gray-500">
