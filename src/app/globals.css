@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Leafletマーカーのカスタムスタイル */
+.iss-marker {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Leafletポップアップのスタイル調整 */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+}
+
+/* Leafletコントロールのスタイル調整 */
+.leaflet-control-layers {
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
